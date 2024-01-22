@@ -1,0 +1,200 @@
+#############################################################
+#*---------------------------------------------------------*#
+#|                       VanillaPlus                       |#
+#*---------------------------------------------------------*#
+#############################################################
+
+# This is the config file for VanillaPlus.
+# This config was generated for version ${project.version}.
+
+# If you need help, you can send me a message on SpigotMC or CurseForge.
+
+version: 1.0
+
+#######################Global settings#######################
+
+# Set the language for the plugin, available options are custom and en. [Default = en]
+language: en
+
+# Enable or disable the plugin metrics. [Default = true]
+metrics-enabled: true
+# Enable or disable the update checker. [Default = true]
+check-for-updates: true
+
+#######################Plugin settings#######################
+
+# Enable or disable the modules.
+modules:
+  crafting-recipes: true
+  furnace-recipes: true
+  spawner: true
+  enchanting: true
+
+###################Crafting recipes module###################
+
+# Configure the crafting recipes module.
+crafting-recipes:
+  bell: true
+  cobweb: true
+  elytra: true
+  enchanted-golden-apple: true
+  experience-bottle: true
+  heart-of-the-sea: true
+  mushroom-stem: true
+  name-tag: true
+  saddle: true
+  string: true
+  totem-of-undying: true
+  trident: true
+  banner-pattern:
+    globe: true
+    snout: true
+  chainmail-armor:
+    helmet: true
+    chestplate: true
+    leggings: true
+    boots: true
+  horse-armor:
+    iron: true
+    golden: true
+    diamond: true
+  mushroom-block:
+    brown: true
+    red: true
+  music-disc:
+    13: true
+    cat: true
+    blocks: true
+    chirp: true
+    far: true
+    mall: true
+    mellohi: true
+    stal: true
+    strad: true
+    ward: true
+    11: true
+    wait: true
+    otherside: true
+    5: true
+    pigstep: true
+    relic: true
+    fragment_5: true
+  pottery-sherd:
+    angler: true
+    archer: true
+    arms-up: true
+    blade: true
+    brewer: true
+    burn: true
+    danger: true
+    explorer: true
+    friend: true
+    heart: true
+    heartbreak: true
+    howl: true
+    miner: true
+    mourner: true
+    plenty: true
+    prize: true
+    sheaf: true
+    shelter: true
+    skull: true
+    snort: true
+  smithing-template:
+    netherite-upgrade: true
+    armor-trim:
+      sentry: true
+      vex: true
+      wild: true
+      coast: true
+      dune: true
+      wayfinder: true
+      raiser: true
+      shaper: true
+      host: true
+      ward: true
+      silence: true
+      tide: true
+      snout: true
+      rib: true
+      eye: true
+      spire: true
+
+####################Furnace recipes module###################
+
+# Configure the furnace recipes module.
+furnace-recipes:
+  anvil: true
+  bucket: true
+  cauldron: true
+  clock: true
+  compass: true
+  hopper: true
+  iron-bars: true
+  iron-door: true
+  iron-trapdoor: true
+  minecart: true
+  shears: true
+  chainmail:
+    helmet: true
+    chestplate: true
+    leggings: true
+    boots: true
+  iron:
+    helmet: true
+    chestplate: true
+    leggings: true
+    boots: true
+    shovel: true
+    pickaxe: true
+    axe: true
+    hoe: true
+    sword: true
+    horse-armor: true
+  golden:
+    helmet: true
+    chestplate: true
+    leggings: true
+    boots: true
+    shovel: true
+    pickaxe: true
+    axe: true
+    hoe: true
+    sword: true
+    horse-armor: true
+  diamond:
+    helmet: true
+    chestplate: true
+    leggings: true
+    boots: true
+    shovel: true
+    pickaxe: true
+    axe: true
+    hoe: true
+    sword: true
+    horse-armor: true
+  netherite:
+    helmet: true
+    chestplate: true
+    leggings: true
+    boots: true
+    shovel: true
+    pickaxe: true
+    axe: true
+    hoe: true
+    sword: true
+
+#######################Spawner module#######################
+
+# Configure the spawner module.
+spawner:
+  recipe: true
+  mineable: true
+  minimum-tool-type: diamond
+  need-silk-touch: true
+
+######################Enchanting module######################
+
+# Configure the enchanting module.
+enchanting:
+  no-lapis-lazuli: true

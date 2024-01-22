@@ -1,0 +1,41 @@
+name: VanillaPlus
+version: '${project.version}'
+main: de.gaming12846.vanillaplus.VanillaPlus
+api-version: '1.13'
+prefix: VanillaPlus
+author: Gaming12846
+description: ${project.description}
+website: ${project.url}
+
+commands:
+  vanillaplus:
+    description: The main command for Vanilla Plus
+    usage: /<command> [version|reload]
+    aliases: [ vanilla+ ]
+
+permissions:
+  vanillaplus.*:
+    description: Gives access to all VanillaPlus commands and modules
+    default: op
+    children:
+      vanillaplus.version: true
+      vanillaplus.reload: true
+      vanillaplus.modules.*: true
+  vanillaplus.version:
+    description: Gives access to the /vanillaplus <version> subcommand
+    default: true
+  vanillaplus.reload:
+    description: Gives access to the /vanillaplus <reload> subcommand
+    default: op
+  vanillaplus.modules.*:
+    description: Gives access to all VanillaPlus modules
+    default: true
+    children:
+      vanillaplus.modules.spawner: true
+      vanillaplus.modules.enchanting: true
+  vanillaplus.modules.spawner:
+    description: Gives access to the spawner module
+    default: true
+  vanillaplus.modules.enchanting:
+    description: Gives access to the enchanting module
+    default: true

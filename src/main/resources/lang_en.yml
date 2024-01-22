@@ -1,0 +1,31 @@
+# This is the english language config file for VanillaPlus.
+# This language config was generated for version ${project.version}.
+# Language config by: Gaming12846
+
+version: 1.0
+
+###########################Global############################
+
+metrics-enabled: "Enabling plugin metrics"
+
+checking-updates: "Checking for updates ..."
+no-update-available: "There is no new update available"
+update-available: "A new update is available! To download it visit SpigotMC:"
+unable-check-updates: "Unable to check for updates:"
+
+config-outdated: "Your configuration is out of date! Please update your configuration to the latest version. The plugin will try to load it anyway, but errors may occur"
+language-config-outdated: "Your language configuration is out of date! Please update your language configuration to the latest version. The plugin will try to load it anyway, but errors may occur"
+
+no-permission: "You do not have sufficient permissions to execute this command"
+no-console: "Command cannot be used from the console"
+invalid-syntax: "Invalid command syntax!"
+invalid-syntax-use: "Use /"
+
+####################"VanillaPlus" command####################
+
+vanillaplus:
+  version: "Version:"
+  developer: "Developer:"
+  plugin-website: "Plugin website:"
+  report-bugs: "Report bugs to:"
+  reload: "Configurations were successfully reloaded"

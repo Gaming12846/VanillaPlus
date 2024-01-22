@@ -1,0 +1,33 @@
+# This is the custom language config file for VanillaPlus.
+# If you want to translate the plugin, use this file.
+# If you want, you can send me your translated language config file and I can add it to the plugin.
+# This language config was generated for version ${project.version}.
+# Language config by:
+
+version: 1.0
+
+###########################Global############################
+
+metrics-enabled: ""
+
+checking-updates: ""
+no-update-available: ""
+update-available: ""
+unable-check-updates: ""
+
+config-outdated: ""
+language-config-outdated: ""
+
+no-permission: ""
+no-console: ""
+invalid-syntax: ""
+invalid-syntax-use: ""
+
+####################"VanillaPlus" command####################
+
+vanillaplus:
+  version: ""
+  developer: ""
+  plugin-website: ""
+  report-bugs: ""
+  reload: ""
