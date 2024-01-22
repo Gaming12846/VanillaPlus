@@ -77,6 +77,12 @@ public class RecipeUtil {
                 createShapedRecipe(new NamespacedKey(plugin, "saddle"), shape, ingredients, new ItemStack(Material.SADDLE));
             }
 
+            if (plugin.getConfig().getBoolean("scrafting-recipes.spawner")) {
+                ArrayList<String> shape = new ArrayList<>(Arrays.asList("AAA", "ABA", "AAA"));
+                ArrayList<Material> ingredients = new ArrayList<>(Arrays.asList(Material.IRON_BARS, Material.NETHER_STAR));
+                createShapedRecipe(new NamespacedKey(plugin, "spawner"), shape, ingredients, new ItemStack(Material.SPAWNER));
+            }
+
             if (plugin.getConfig().getBoolean("crafting-recipes.string")) {
                 List<Material> materials = Arrays.asList(Material.WHITE_WOOL, Material.ORANGE_WOOL, Material.MAGENTA_WOOL, Material.LIGHT_BLUE_WOOL, Material.YELLOW_WOOL, Material.LIME_WOOL, Material.PINK_WOOL, Material.GRAY_WOOL, Material.LIGHT_GRAY_WOOL, Material.CYAN_WOOL, Material.PURPLE_WOOL, Material.BLUE_WOOL, Material.BROWN_WOOL, Material.GREEN_WOOL, Material.RED_WOOL, Material.BLACK_WOOL);
                 List<String> strings = Arrays.asList("string_white_wool", "string_orange_wool", "string_magenta_wool", "string_light_blue_wool", "string_yellow_wool", "string_lime_wool", "string_pink_wool", "string_gray_wool", "string_light_gray_wool", "string_cyan_wool", "string_purple_wool", "string_blue_wool", "string_brown_wool", "string_green_wool", "string_red_wool", "string_black_wool");
@@ -725,15 +731,6 @@ public class RecipeUtil {
             if (plugin.getConfig().getBoolean("furnace-recipes.netherite.sword")) {
                 createFurnaceRecipe(new NamespacedKey(plugin, "smelting_netherite_sword"), Material.NETHERITE_SWORD, new ItemStack(Material.NETHERITE_SCRAP, 4), 2F, 200);
                 createBlastingRecipe(new NamespacedKey(plugin, "blasting_netherite_sword"), Material.NETHERITE_SWORD, new ItemStack(Material.NETHERITE_SCRAP, 4), 2F, 100);
-            }
-        }
-
-        // Spawner module
-        if (plugin.getConfig().getBoolean("modules.spawner")) {
-            if (plugin.getConfig().getBoolean("spawner.recipe")) {
-                ArrayList<String> shape = new ArrayList<>(Arrays.asList("AAA", "ABA", "AAA"));
-                ArrayList<Material> ingredients = new ArrayList<>(Arrays.asList(Material.IRON_BARS, Material.NETHER_STAR));
-                createShapedRecipe(new NamespacedKey(plugin, "spawner"), shape, ingredients, new ItemStack(Material.SPAWNER));
             }
         }
     }

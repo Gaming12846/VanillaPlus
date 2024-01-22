@@ -115,11 +115,11 @@ public class VanillaPlus extends JavaPlugin {
         if (getConfig().getBoolean("check-for-updates", true)) {
             Logger.info(getLanguageConfig().getConfig().getString("checking-updates"));
 
-            new UpdateChecker(this, 0).getVersion(version -> {
+            new UpdateChecker(this, 114644).getVersion(version -> {
                 if (this.getDescription().getVersion().equalsIgnoreCase(version)) {
                     Logger.info(getLanguageConfig().getConfig().getString("no-update-available"));
                 } else {
-                    Logger.info(getLanguageConfig().getConfig().getString("update-available") + " https://www.spigotmc.org/resources/81193");
+                    Logger.info(getLanguageConfig().getConfig().getString("update-available") + " https://www.spigotmc.org/resources/114644");
 
                     updateAvailable = true;
                 }

@@ -43,6 +43,7 @@ crafting-recipes:
   mushroom-stem: true
   name-tag: true
   saddle: true
+  spawner: true
   string: true
   totem-of-undying: true
   trident: true
@@ -188,7 +189,6 @@ furnace-recipes:
 
 # Configure the spawner module.
 spawner:
-  recipe: true
   mineable: true
   minimum-tool-type: diamond
   need-silk-touch: true

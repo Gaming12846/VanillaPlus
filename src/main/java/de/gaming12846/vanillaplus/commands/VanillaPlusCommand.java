@@ -58,7 +58,7 @@ public class VanillaPlusCommand implements CommandExecutor {
             sender.sendMessage(Constants.PLUGIN_PREFIX + headerFooter);
 
             if (plugin.updateAvailable) {
-                sender.sendMessage(langConfig.getString("update-available") + " https://www.spigotmc.org/resources/");
+                sender.sendMessage(langConfig.getString("update-available") + " https://www.spigotmc.org/resources/114644");
             }
         }
         // Reload subcommand
