@@ -12,7 +12,7 @@ Have you always wanted to improve your Minecraft Vanilla experience without chan
 right place! This plugin adds recipes for almost every item, adds furnace recipes to melt your tools and armor, allows
 you to mine spawners and much more.
 
-This plugin is currently only tested on Minecraft 1.20.4 on CraftBukkit, Spigot and Paper.
+This plugin is currently only tested with Minecraft version 1.20.4 on CraftBukkit, Spigot and Paper.
 
 All important things such as installation and the use of commands and permissions can be found in
 the [wiki](https://github.com/Gaming12846/VanillaPlus/wiki).
